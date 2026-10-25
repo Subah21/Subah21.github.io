@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sabah Al-Haidari, RF, FPGA and embedded systems</title>
+<meta name="description" content="Projects by Sabah Al-Haidari: software-defined radio, FPGA signal processing, edge AI and embedded systems.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+
+<div class="top">
+  <a href="#" id="brand"></a>
+  <nav>
+    <a href="#work">Projects</a>
+    <a href="#about">About</a>
+    <button id="theme" type="button" aria-label="Switch light or dark theme">Theme</button>
+  </nav>
+</div>
+
+<section class="hero" aria-label="Introduction">
+  <canvas id="spectrum" aria-hidden="true"></canvas>
+  <div class="in">
+    <h1 id="headline"></h1>
+    <p id="intro"></p>
+    <div class="meta" id="meta"></div>
+  </div>
+</section>
+
+<main class="work" id="work">
+  <div class="rail" role="tablist" aria-label="Projects" aria-orientation="vertical" id="tabs">
+    <h2>Projects</h2>
+  </div>
+  <article class="page" id="page" role="tabpanel" tabindex="-1"></article>
+</main>
+
+<section class="about" id="about" aria-labelledby="about-h">
+  <h2 id="about-h">About</h2>
+  <dl id="skills"></dl>
+</section>
+
+<footer id="foot"></footer>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button type="button" id="lb-close">Close</button>
+  <img alt="">
+</div>
+
+<noscript><p style="padding:24px">This site needs JavaScript to show the projects.</p></noscript>
+
+<script src="data/content.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
